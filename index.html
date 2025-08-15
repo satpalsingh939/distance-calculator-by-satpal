@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Distance</title>
+    <link rel="stylesheet" href="distance.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="./logoPS.png" alt="logo">
+        </div>
+        <h1>Find Your Destination Distance :</h1>
+        <form id="distanceForm">
+            <label for="city1">To-City :</label>
+            <input type="text" id="toCity" placeholder="Enter your location" required>
+            <label for="city2">From-City :</label>
+            <input type="text" id="fromCity" placeholder="Enter destination location" required>
+            <button type="submit">Search</button>
+        </form>
+
+        <div id="result">
+            <p id="displayBlk"></p>
+        </div>
+    </div>
+
+    <script src="distance.js">
+
+    </script>
+
+</body>
+
+</html>
